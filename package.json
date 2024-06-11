@@ -1,6 +1,6 @@
 {
   "name": "@lib-tj/joi-date-time-zone",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extenstion to enable timezone support and parsing of date time strings. (uses Luxon)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
