@@ -1,6 +1,5 @@
-import { DateTime } from "luxon";
-import JoiTz from '@lib-tj/joi-date-time-zone'
 import Joi, { Root } from "joi";
+import JoiTz from './src'
 
 const joi: Root & { dateTz: any } = Joi.extend(JoiTz);
 
