@@ -2,11 +2,11 @@ Joi Extension adding timezone and custom formatting to datetime stirng in Joi. U
 
 ## Getting Started
 
-<code></code>
+```npm i @lib-tj/joi-date-time-zone```
 
 ## Custom Format
 
-<code>
+```
 import JoiTz from '@lib-tj/joi-date-time-zone'
 
 const joi: Root & { dateTz: any } = Joi.extend(JoiTz);
@@ -16,7 +16,7 @@ const schema = Joi.dateTz().format('YYYY-MM-DD').tz('UTC'); // utc timezone
 const schema = Joi.dateTz().format('YYYY-MM-DD').tz('Asia/Kolkata'); // indian timezone
 
 const schema = Joi.dateTz().iso() // ISO Format
-</code>
+```
 
 ## FUTURE PLANS
 
