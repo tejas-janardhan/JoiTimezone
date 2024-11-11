@@ -1,5 +1,7 @@
 Joi Extension adding timezone and custom formatting to datetime stirng in Joi. Uses Luxon - [https://moment.github.io/luxon/#/](https://moment.github.io/luxon/#/).
 
+[![NPM Link](https://skillicons.dev/icons?i=npm)](https://www.npmjs.com/package/@lib-tj/joi-date-time-zone)
+
 ## Getting Started
 
 ```npm i @lib-tj/joi-date-time-zone```
